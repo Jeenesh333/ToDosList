@@ -1,0 +1,44 @@
+.footer{
+    text-align: center;
+    top:100vh;
+    width: 100%;
+    border: 2px solid rgb(99, 161, 99);
+    position:relative;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: -28.3rem;
+    color:rgb(189, 176, 62);
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    min-width: 70vh;
+}
+.copy{
+    background-image: linear-gradient(900deg,rgb(42, 255, 14),rgb(252, 0, 239));
+    background-clip: text;
+    color: transparent;
+}
+
+@media screen  and (max-width:470px) {
+    .footer{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen  and (max-width:450px) {
+    .footer{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+}
+@media screen  and (max-width:420px) {
+    .footer{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+}
